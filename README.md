@@ -46,7 +46,7 @@ Before you begin, ensure that you have met the following requirements:
 
 Clone the repository to your local machine:
 ```sh
-  $ git clone https://github.com/devpapi0891/image-color-extractor.git
+  git clone https://github.com/devpapi0891/image-color-extractor.git
 ```
 
 Navigate to the project directory:

@@ -5,15 +5,15 @@
   PHP Image Color Extractor
 </h1>
 
-<p align="center">
+<p align="justify">
   The PHP Image Color Extractor is a web application that allows users to upload an image and extract colors from it. This documentation provides information on how to set up and use the application.
 </p>
 
-<p align="center">
+<p align="justify">
 Effortlessly identify the dominant colors in any image. This knowledge enables you to create visually cohesive designs that resonate with your brand identity. Consistency in color schemes across your website, social media profiles, and marketing materials reinforces your brand image and improves recognition.
 </p>
 
-<p align="center">
+<p align="justify">
   When creating content, whether it's graphics, banners, or social media posts, your Image Color Extractor saves you valuable time. Instead of manually selecting colors, you can use the extracted colors as a starting point, making the design process faster and more efficient.
 </p>
 
@@ -29,17 +29,11 @@ Effortlessly identify the dominant colors in any image. This knowledge enables y
 ## Requirements
 Before you begin, ensure that you have met the following requirements:
 
-<ul>
-  <li>PHP 7.0 or later</li>
-  <li>
-    Atleast one of the following PHP extensions must be installed/or enabled: GD, Imagick, or Gmagick.
-    <ul>
-      <li> <a href="https://www.php.net/manual/en/image.installation.php" target="_blank">GD Extension Installation</a> </li>
-      <li> <a href="https://www.php.net/manual/en/imagick.setup.php" target="_blank">Imagick Extension Installation</a> </li>
-      <li> <a href="https://pecl.php.net/package/gmagick" target="_blank">Gmagick Extension Installation</a> </li>
-    </ul>
-  </li>
-</ul>
+- PHP 7.0 or later
+- Atleast one of the following PHP extensions must be installed/or enabled: GD, Imagick, or Gmagick.
+  - <a href="https://www.php.net/manual/en/image.installation.php" target="_blank">GD Extension Installation</a>
+  - <a href="https://www.php.net/manual/en/imagick.setup.php" target="_blank">Imagick Extension Installation</a>
+  - <a href="https://pecl.php.net/package/gmagick" target="_blank">Gmagick Extension Installation</a>
 
 ## Installation
 ### Locally
@@ -64,19 +58,16 @@ Start a PHP development server:
 # Example
 Here's a basic example of how to use the PHP Image Color Extractor:
 
-<ul>
-  <li>Visit the application in your web browser at http://localhost:8000</li>
-  <li>Click the "Choose File" button to upload an image.</li>
-  <li>Click the Extract Colors button.</li>
-  <li>And the extracted colors will show up.</li>
-</ul>
+- Visit the application in your web browser at http://localhost:8000
+- Click the "Choose File" button to upload an image.
+- Click the Extract Colors button.
+- And the extracted colors will show up.
 
 ## Contributing
-Contributions are welcome! If you would like to contribute to the project, please follow these guidelines:
+Contributions are what make the open source community such an amazing place to learn, inspire and create. Any contributions you make are **greatly appreciated. 
+Please follow these guidelines:
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and ensure they are well-tested.
+- Create a pull request with a clear description of your changes.
 
-<ul>
-  <li>Fork the repository.</li>
-  <li>Create a new branch for your feature or bug fix.</li>
-  <li>Make your changes and ensure they are well-tested.</li>
-  <li>Create a pull request with a clear description of your changes.</li>
-</ul>

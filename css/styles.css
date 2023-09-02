@@ -1,0 +1,150 @@
+/*  */
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.custom-icons {
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.2s ease;
+}
+.custom-icons:hover {
+    opacity: 0.7;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    /* background-color: #343a40!important; */
+    /* color: rgba(255,255,255,0.7); */
+}
+@media only screen and (max-width: 760px) {
+    body.disable-scroll {
+        overflow: hidden;
+    }
+}
+
+
+a {
+    text-decoration: none;
+    color: #dc3545!important;
+}
+a:hover {
+    opacity: 0.8;
+}
+
+#search-field {
+    box-sizing: border-box !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    z-index: 1051;
+    padding: 6px 3%;
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+    transition: 0.2s;
+}
+#search-field.active {
+    margin-top: 0;
+}
+
+#nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    box-sizing: border-box !important;
+    height: 56px;
+    padding: 6px 3%;
+    display: flex;
+    align-items: center;
+    color: rgba(255,255,255,1);
+    transition: top 0.2s ease;
+}
+#nav.hide {
+    top: -100px!important;
+}
+
+#scroll-to-top-btn {
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 6px;
+    display: none;
+}
+#scroll-to-top-btn.active {
+    display: block !important;
+}
+
+#navigation-list {
+
+}
+#navigation-list a.active {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 760px) {
+    #navigation-list {
+        background-color: #343a40!important;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1051;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow-y: auto;
+        display: none;
+    }
+    #navigation-list.active {
+        display: flex !important;
+    }
+}
+
+#navigation-list #close-nav-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+@media only screen and (max-width: 760px) {
+    #navigation-list #close-nav-btn {
+        display: block;
+    }
+}
+
+#nav a {
+    color: rgba(255,255,255,1) !important;
+}
+
+#menu-btn {
+    display: none;
+}
+@media only screen and (max-width: 760px) {
+    #menu-btn {
+        display: block !important;
+    }
+}
+
+#main {
+    min-height: 100vh;
+}

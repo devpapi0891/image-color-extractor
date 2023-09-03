@@ -119,6 +119,7 @@ function displayPalette(colors, format) {
 
     let palette = document.createElement('div')
     palette.classList.add('palette')
+    palette.setAttribute('onclick', `copyToClipBoard(this)`)
     palette.setAttribute('style', `background-color:${backgroundColor};color:${textColor};`)
     palette.innerHTML=`<span>${dt}</span>`;
 

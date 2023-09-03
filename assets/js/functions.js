@@ -78,3 +78,20 @@ function isCloseToZero(number) {
   return false;
 }
 
+function copyToClipBoard(el) {
+  let innerText = el.querySelector('span').innerText;
+
+  const textarea = document.createElement('textarea');
+  textarea.value = innerText;
+  document.body.appendChild(textarea);
+
+  // Select and copy the text
+  textarea.select();
+  document.execCommand('copy');
+
+  // Remove the temporary textarea
+  document.body.removeChild(textarea);
+
+  // Optionally, provide feedback to the user
+  alert('Copied color code');
+}

@@ -81,11 +81,22 @@ body.dark-mode #night-mode-toggler {
   height: auto;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
+@media only screen and (max-width: 991px) {
+  #imagePreviewContainer img {
+    max-width: 350px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #imagePreviewContainer img {
+    max-width: 150px;
+  }
+}
 
 #palettesContainer {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #palettesContainer .palette {
@@ -101,13 +112,13 @@ body.dark-mode #night-mode-toggler {
   border: solid rgba(0, 0, 0, 0.04);
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 991px) {
   #palettesContainer .palette {
     max-width: calc(33.33% - 16px);
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
   #palettesContainer .palette {
     max-width: calc(50% - 16px);
   }

@@ -124,6 +124,8 @@ function displayPalette(colors, format) {
     palette.innerHTML=`<span>${dt}</span>`;
 
     palettesContainer.appendChild(palette)
+
+    window.location.href=`#palettesContainer`;
   }
 }
 

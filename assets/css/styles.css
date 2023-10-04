@@ -97,6 +97,7 @@ body.dark-mode #night-mode-toggler {
   gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 16px 0;
 }
 
 #palettesContainer .palette {
